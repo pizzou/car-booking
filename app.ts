@@ -9,7 +9,7 @@ export const app = express();
 
 export const nylas = new Nylas({
   apiKey: process.env.NYLAS_API_KEY!,
-  // apiUri: "https://api.eu.nylas.com",
+  apiUri: "https://api.eu.nylas.com",
 });
 
 // body parser
