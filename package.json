@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
     "start": "node build/server.js",
     "prisma:generate": "prisma generate",
-  "postinstall": "npm run prisma:generate",
+  
     "build": "tsc"
   },
   "keywords": [],
