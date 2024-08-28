@@ -8,7 +8,6 @@
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
     "start": "node build/server.js",
     "build": "tsc"
-
   },
   "keywords": [],
   "author": "shahriar sajeeb",
@@ -16,6 +15,7 @@
   "dependencies": {
     "@prisma/client": "^5.17.0",
     "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "ip": "^2.0.1",
     "jsonwebtoken": "^9.0.2",
