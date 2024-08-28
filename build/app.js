@@ -13,7 +13,7 @@ const driver_route_1 = __importDefault(require("./routes/driver.route"));
 exports.app = (0, express_1.default)();
 exports.nylas = new nylas_1.default({
     apiKey: process.env.NYLAS_API_KEY,
-    apiUri: "https://api.eu.nylas.com",
+    // apiUri: "https://api.eu.nylas.com",
 });
 // body parser
 exports.app.use(express_1.default.json({ limit: "50mb" }));
